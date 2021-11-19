@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.6"/>
+    <errors>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;DMA2_Stream0_IRQHandler&amp;#039; is never used." verbose="The function &amp;#039;DMA2_Stream0_IRQHandler&amp;#039; is never used." cwe="561" sinceDate="10/27/2021">
+            <location file="project_2_module_4_uvision6_nucleo_f401re (1)\project_2_module_4\files\dma.cpp" line="59"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;SysTick_Handler&amp;#039; is never used." verbose="The function &amp;#039;SysTick_Handler&amp;#039; is never used." cwe="561" sinceDate="10/27/2021">
+            <location file="project_2_module_4_uvision6_nucleo_f401re (1)\project_2_module_4\files\main.cpp" line="42"/>
+        </error>
+    </errors>
+</results>
